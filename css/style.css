@@ -1035,6 +1035,16 @@ margin: 15px 0 15px 0;
 .ion-ios-telephone-outline:before {
   font-size: 1.5em;
 }
+
+.facts-counter-description, .contact-info-description:hover >
+.ion-ios-location-outline,
+.facts-counter-description, .contact-info-description:hover >
+.ion-ios-email-outline,
+.facts-counter-description, .contact-info-description:hover >
+.ion-ios-telephone-outline {
+  color: #55AFE2;
+}
+
 .facts-counter-description-img.large,
 .contact-info-description-img.large {
 font-size: 40px;
