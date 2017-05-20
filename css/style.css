@@ -472,7 +472,9 @@ padding-top: 21px;
      -o-transition: all .4s ease-out;
         transition: all .4s ease-out;
 }
-
+@media only screen and (max-width: 991px) {
+  .swap{display: flex; flex-direction: column-reverse;}
+}
 @media only screen and (max-width: 768px) {
   .logo {
     padding-top: 20px;
